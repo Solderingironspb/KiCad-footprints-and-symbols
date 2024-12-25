@@ -1,0 +1,204 @@
+(footprint "WLCSP-4_0.64x0.64mm_P0.35mm"
+	(version 20240108)
+	(generator "kicad-footprint-generator")
+	(layer "F.Cu")
+	(descr "WLCSP-4, 0.64x0.64mm, 4 Ball, 2x2 Layout, 0.35mm Pitch, https://www.onsemi.com/pdf/datasheet/ncp163-d.pdf#page=23")
+	(tags "CSP 4 0.35")
+	(property "Reference" "REF**"
+		(at 0 -1.32 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "WLCSP-4_0.64x0.64mm_P0.35mm"
+		(at 0 1.32 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.125)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.54 0.54)
+		(end -0.54 -0.325)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -0.325 -0.54)
+		(end 0.54 -0.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 0.54 -0.54)
+		(end 0.54 0.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 0.54 0.54)
+		(end -0.54 0.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_poly
+		(pts
+			(xy -0.54 -0.54)
+			(xy -1.04 -0.54)
+			(xy -0.54 -1.04)
+			(xy -0.54 -0.54)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -1.32 -1.32)
+		(end -1.32 1.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -1.32 1.32)
+		(end 1.32 1.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1.32 -1.32)
+		(end -1.32 -1.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1.32 1.32)
+		(end 1.32 -1.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -0.32 -0.16)
+		(end -0.16 -0.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -0.32 0.32)
+		(end -0.32 -0.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -0.16 -0.32)
+		(end 0.32 -0.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 0.32 -0.32)
+		(end 0.32 0.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 0.32 0.32)
+		(end -0.32 0.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.15 0.15)
+				(thickness 0.0225)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.175 -0.175)
+		(size 0.21 0.21)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "A2" smd circle
+		(at 0.175 -0.175)
+		(size 0.21 0.21)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "B1" smd circle
+		(at -0.175 0.175)
+		(size 0.21 0.21)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "B2" smd circle
+		(at 0.175 0.175)
+		(size 0.21 0.21)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_CSP.3dshapes/WLCSP-4_0.64x0.64mm_P0.35mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

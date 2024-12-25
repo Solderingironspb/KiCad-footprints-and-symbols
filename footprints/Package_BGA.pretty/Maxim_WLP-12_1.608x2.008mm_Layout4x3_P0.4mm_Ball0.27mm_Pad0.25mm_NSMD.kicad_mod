@@ -1,0 +1,252 @@
+(footprint "Maxim_WLP-12_1.608x2.008mm_Layout4x3_P0.4mm_Ball0.27mm_Pad0.25mm_NSMD"
+	(version 20240108)
+	(generator "kicad-footprint-generator")
+	(layer "F.Cu")
+	(descr "Maxim WLP-12, W121H2+1, 2.008x1.608mm, 12 Ball, 4x3 Layout, 0.4mm Pitch, https://pdfserv.maximintegrated.com/package_dwgs/21-100302.PDF, https://pdfserv.maximintegrated.com/package_dwgs/21-100302.PDF")
+	(tags "BGA 12 0.4")
+	(property "Reference" "REF**"
+		(at 0 -1.804 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "Maxim_WLP-12_1.608x2.008mm_Layout4x3_P0.4mm_Ball0.27mm_Pad0.25mm_NSMD"
+		(at 0 1.804 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.125)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.114 0.914)
+		(end -1.114 -0.512)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -0.712 -0.914)
+		(end 1.114 -0.914)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1.114 -0.914)
+		(end 1.114 0.914)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1.114 0.914)
+		(end -1.114 0.914)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_poly
+		(pts
+			(xy -1.114 -0.914)
+			(xy -1.614 -0.914)
+			(xy -1.114 -1.414)
+			(xy -1.114 -0.914)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -2.01 -1.81)
+		(end -2.01 1.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -2.01 1.81)
+		(end 2.01 1.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 2.01 -1.81)
+		(end -2.01 -1.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 2.01 1.81)
+		(end 2.01 -1.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -1.004 -0.402)
+		(end -0.602 -0.804)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -1.004 0.804)
+		(end -1.004 -0.402)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -0.602 -0.804)
+		(end 1.004 -0.804)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 1.004 -0.804)
+		(end 1.004 0.804)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 1.004 0.804)
+		(end -1.004 0.804)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.47 0.47)
+				(thickness 0.0705)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.6 -0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "A2" smd circle
+		(at -0.2 -0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "A3" smd circle
+		(at 0.2 -0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "A4" smd circle
+		(at 0.6 -0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "B1" smd circle
+		(at -0.6 0)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "B2" smd circle
+		(at -0.2 0)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "B3" smd circle
+		(at 0.2 0)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "B4" smd circle
+		(at 0.6 0)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "C1" smd circle
+		(at -0.6 0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "C2" smd circle
+		(at -0.2 0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "C3" smd circle
+		(at 0.2 0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "C4" smd circle
+		(at 0.6 0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_BGA.3dshapes/Maxim_WLP-12_1.608x2.008mm_Layout4x3_P0.4mm_Ball0.27mm_Pad0.25mm_NSMD.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

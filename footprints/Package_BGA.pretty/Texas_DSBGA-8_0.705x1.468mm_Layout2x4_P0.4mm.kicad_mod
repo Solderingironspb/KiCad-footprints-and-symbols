@@ -1,0 +1,229 @@
+(footprint "Texas_DSBGA-8_0.705x1.468mm_Layout2x4_P0.4mm"
+	(version 20240108)
+	(generator "kicad-footprint-generator")
+	(layer "F.Cu")
+	(descr "Texas Instruments, DSBGA, area grid, NSMD, YBJ0008 pad definition, 0.705x1.468mm, 8 Ball, 2x4 Layout, 0.4mm Pitch, https://www.ti.com/lit/gpn/ina234")
+	(tags "BGA 8 0.4")
+	(solder_mask_margin 0.05)
+	(property "Reference" "REF**"
+		(at 0 -1.734 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "Texas_DSBGA-8_0.705x1.468mm_Layout2x4_P0.4mm"
+		(at 0 1.734 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.125)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.56 0.96)
+		(end -0.56 -0.735)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -0.335 -0.96)
+		(end 0.56 -0.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 0.56 -0.96)
+		(end 0.56 0.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 0.56 0.96)
+		(end -0.56 0.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_poly
+		(pts
+			(xy -0.56 -0.96)
+			(xy -1.06 -0.96)
+			(xy -0.56 -1.46)
+			(xy -0.56 -0.96)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -1.36 -1.74)
+		(end -1.36 1.74)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -1.36 1.74)
+		(end 1.36 1.74)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1.36 -1.74)
+		(end -1.36 -1.74)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1.36 1.74)
+		(end 1.36 -1.74)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -0.3525 -0.55775)
+		(end -0.17625 -0.734)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -0.3525 0.734)
+		(end -0.3525 -0.55775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -0.17625 -0.734)
+		(end 0.3525 -0.734)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 0.3525 -0.734)
+		(end 0.3525 0.734)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 0.3525 0.734)
+		(end -0.3525 0.734)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.34 0.34)
+				(thickness 0.051)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.2 -0.6)
+		(size 0.2 0.2)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "A2" smd circle
+		(at 0.2 -0.6)
+		(size 0.2 0.2)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "B1" smd circle
+		(at -0.2 -0.2)
+		(size 0.2 0.2)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "B2" smd circle
+		(at 0.2 -0.2)
+		(size 0.2 0.2)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "C1" smd circle
+		(at -0.2 0.2)
+		(size 0.2 0.2)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "C2" smd circle
+		(at 0.2 0.2)
+		(size 0.2 0.2)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "D1" smd circle
+		(at -0.2 0.6)
+		(size 0.2 0.2)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "D2" smd circle
+		(at 0.2 0.6)
+		(size 0.2 0.2)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_DSBGA-8_0.705x1.468mm_Layout2x4_P0.4mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
