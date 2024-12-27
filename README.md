@@ -5,6 +5,8 @@
 * Рамки компонентов перенесены со солоя F.Courtyard на F.Silkscreen
 * Поправлен символ TL431 в SOT23-3 корпусе. Там обычно 1 и 2 ноги были перепутаны.
 ## Добавлены символы:
+### 74Gxx:
+*	NS7SZ02 SOT23-5
 ### 74xx:
 * 	74HC4051
 *	74HC4052
@@ -12,6 +14,9 @@
 *	74HC4066
 *	74HC08	
 *	74HC32
+### Amplifer_Operational:
+*	 AD8551
+*	 AD8628
 ### Analog_ADC:
 *	AD7705
 *	AD7706
@@ -26,7 +31,10 @@
 *	CA-IS3742
 *	CA-IS3745
 ### IC_RUNIC:
+*	RS0204_TSSOP-14
 *	RS2257
+*	RS3112_SOIC-8
+*	RS3112_SOT23
 ### MCU_WCH_CH32V0:
 *	CH32V003A4M6
 *	CH32V003F4P6
@@ -39,6 +47,9 @@
 *	CH32V203K8T6
 *	CH32V203F8P6
 *	CH32V203F6P6
+### Power_Protection:
+*	PESD3V3L1BA
+*	DALC208
 ### Reference_Voltage:
 *	TL431UMW SOT23-3
 ### Transistor_FET
