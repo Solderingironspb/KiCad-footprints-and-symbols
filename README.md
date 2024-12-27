@@ -6,12 +6,27 @@
 * Поправлен символ TL431 в SOT23-3 корпусе. Там обычно 1 и 2 ноги были перепутаны.
 ## Добавлены символы:
 ### 74xx:
-* 74HC4051
+* 	74HC4051
 *	74HC4052
 *	74HC4053
 *	74HC4066
 *	74HC08	
 *	74HC32
+### Analog_ADC:
+*	AD7705
+*	AD7706
+### IC_3PEAK:
+*	TP2411 SO-8
+*	TP2411 SOT23-5
+*	TP2412
+*	TP2414
+### IC_CHIPANALOG:
+*	CA-IS3740
+*	CA-IS3741
+*	CA-IS3742
+*	CA-IS3745
+### IC_RUNIC:
+*	RS2257
 ### MCU_WCH_CH32V0:
 *	CH32V003A4M6
 *	CH32V003F4P6
@@ -24,6 +39,10 @@
 *	CH32V203K8T6
 *	CH32V203F8P6
 *	CH32V203F6P6
+### Reference_Voltage:
+*	TL431UMW SOT23-3
+### Transistor_FET
+*	IRLML0040
 ### Установка:
 * Путь по-умолчанию: C:\Program Files\KiCad\8.0\share\kicad
 * Не забываем делать бэкап.

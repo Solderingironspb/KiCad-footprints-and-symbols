@@ -4877,8 +4877,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at -7.62 -2.54 0)
+		(property "Datasheet" "https://static.chipdip.ru/lib/993/DOC012993875.pdf"
+			(at 0.508 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,8 +4886,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at -7.62 -2.54 0)
+		(property "Description" "Логическая ИС, логическая функция 2И"
+			(at -0.762 -26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,24 +4933,6 @@
 				)
 			)
 			(pin input line
-				(at 6.35 -10.16 180)
-				(length 2.54)
-				(name "4Y"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at 6.35 -7.62 180)
 				(length 2.54)
 				(name "4A"
@@ -4987,24 +4969,6 @@
 				)
 			)
 			(pin input line
-				(at 6.35 -2.54 180)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -7.62 -5.08 0)
 				(length 2.54)
 				(name "1B"
@@ -5015,24 +4979,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -7.62 -7.62 0)
-				(length 2.54)
-				(name "1Y"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5077,6 +5023,80 @@
 				)
 			)
 			(pin input line
+				(at 6.35 -15.24 180)
+				(length 2.54)
+				(name "3A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74HC08_1_0"
+			(pin output line
+				(at 6.35 -10.16 180)
+				(length 2.54)
+				(name "4Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 6.35 -2.54 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -7.62 -7.62 0)
+				(length 2.54)
+				(name "1Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
 				(at -7.62 -15.24 0)
 				(length 2.54)
 				(name "2Y"
@@ -5094,7 +5114,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -7.62 -17.78 0)
 				(length 2.54)
 				(name "GND"
@@ -5112,7 +5132,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 6.35 -17.78 180)
 				(length 2.54)
 				(name "3Y"
@@ -5123,24 +5143,6 @@
 					)
 				)
 				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.35 -15.24 180)
-				(length 2.54)
-				(name "3A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8512,8 +8514,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at -6.35 -2.54 0)
+		(property "Datasheet" "https://static.chipdip.ru/lib/430/DOC004430012.pdf"
+			(at -0.508 -24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8521,8 +8523,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at -6.35 -2.54 0)
+		(property "Description" "Четыре логических элемента \"2ИЛИ\""
+			(at -1.016 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8568,24 +8570,6 @@
 				)
 			)
 			(pin input line
-				(at 7.62 -10.16 180)
-				(length 2.54)
-				(name "4Y"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at 7.62 -7.62 180)
 				(length 2.54)
 				(name "4A"
@@ -8622,24 +8606,6 @@
 				)
 			)
 			(pin input line
-				(at 7.62 -2.54 180)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -6.35 -5.08 0)
 				(length 2.54)
 				(name "1B"
@@ -8650,24 +8616,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -6.35 -7.62 0)
-				(length 2.54)
-				(name "1Y"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8712,6 +8660,80 @@
 				)
 			)
 			(pin input line
+				(at 7.62 -15.24 180)
+				(length 2.54)
+				(name "3A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74HC32_1_0"
+			(pin output line
+				(at 7.62 -10.16 180)
+				(length 2.54)
+				(name "4Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -6.35 -7.62 0)
+				(length 2.54)
+				(name "1Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
 				(at -6.35 -15.24 0)
 				(length 2.54)
 				(name "2Y"
@@ -8729,7 +8751,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -6.35 -17.78 0)
 				(length 2.54)
 				(name "GND"
@@ -8747,7 +8769,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 7.62 -17.78 180)
 				(length 2.54)
 				(name "3Y"
@@ -8758,24 +8780,6 @@
 					)
 				)
 				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -15.24 180)
-				(length 2.54)
-				(name "3A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9160,8 +9164,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://static.chipdip.ru/lib/373/DOC011373504.pdf"
+			(at 1.016 -33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9169,8 +9173,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "Восьми канальный аналоговый мультиплексор/ демультиплексор"
+			(at 3.556 -30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9179,24 +9183,6 @@
 			)
 		)
 		(symbol "74HC4051_0_0"
-			(pin input line
-				(at -6.35 -5.08 0)
-				(length 2.54)
-				(name "Y4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at 7.62 -20.32 180)
 				(length 2.54)
@@ -9234,168 +9220,6 @@
 				)
 			)
 			(pin input line
-				(at 7.62 -15.24 180)
-				(length 2.54)
-				(name "Y3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -12.7 180)
-				(length 2.54)
-				(name "Y0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -10.16 180)
-				(length 2.54)
-				(name "Y1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -7.62 180)
-				(length 2.54)
-				(name "Y2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -5.08 180)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -6.35 -7.62 0)
-				(length 2.54)
-				(name "Y6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -6.35 -10.16 0)
-				(length 2.54)
-				(name "Z"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -6.35 -12.7 0)
-				(length 2.54)
-				(name "Y7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -6.35 -15.24 0)
-				(length 2.54)
-				(name "Y5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -6.35 -17.78 0)
 				(length 2.54)
 				(name "~{E}"
@@ -9414,6 +9238,206 @@
 				)
 			)
 			(pin input line
+				(at 7.62 -22.86 180)
+				(length 2.54)
+				(name "S2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74HC4051_1_0"
+			(pin bidirectional line
+				(at -6.35 -5.08 0)
+				(length 2.54)
+				(name "Y4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 -15.24 180)
+				(length 2.54)
+				(name "Y3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 -12.7 180)
+				(length 2.54)
+				(name "Y0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 -10.16 180)
+				(length 2.54)
+				(name "Y1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 -7.62 180)
+				(length 2.54)
+				(name "Y2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 -5.08 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 -7.62 0)
+				(length 2.54)
+				(name "Y6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 -10.16 0)
+				(length 2.54)
+				(name "Z"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 -12.7 0)
+				(length 2.54)
+				(name "Y7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 -15.24 0)
+				(length 2.54)
+				(name "Y5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at -6.35 -20.32 0)
 				(length 2.54)
 				(name "VEE"
@@ -9431,7 +9455,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -6.35 -22.86 0)
 				(length 2.54)
 				(name "GND"
@@ -9442,24 +9466,6 @@
 					)
 				)
 				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -22.86 180)
-				(length 2.54)
-				(name "S2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9511,8 +9517,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://static.chipdip.ru/lib/417/DOC005417170.pdf"
+			(at -1.524 -32.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9520,8 +9526,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "Двойной четырёхканальный аналоговый мультиплексор/ демультиплексор"
+			(at 1.27 -29.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9541,7 +9547,7 @@
 					(type background)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -6.35 -3.81 0)
 				(length 2.54)
 				(name "2Y0"
@@ -9577,7 +9583,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 7.62 -16.51 180)
 				(length 2.54)
 				(name "1Y3"
@@ -9595,7 +9601,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 7.62 -13.97 180)
 				(length 2.54)
 				(name "1Y0"
@@ -9613,7 +9619,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 7.62 -11.43 180)
 				(length 2.54)
 				(name "1Z"
@@ -9631,7 +9637,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 7.62 -8.89 180)
 				(length 2.54)
 				(name "1Y1"
@@ -9649,7 +9655,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 7.62 -6.35 180)
 				(length 2.54)
 				(name "1Y2"
@@ -9667,7 +9673,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 7.62 -3.81 180)
 				(length 2.54)
 				(name "VCC"
@@ -9685,7 +9691,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -6.35 -6.35 0)
 				(length 2.54)
 				(name "2Y2"
@@ -9703,7 +9709,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -6.35 -8.89 0)
 				(length 2.54)
 				(name "2Z"
@@ -9721,7 +9727,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -6.35 -11.43 0)
 				(length 2.54)
 				(name "2Y3"
@@ -9739,7 +9745,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -6.35 -13.97 0)
 				(length 2.54)
 				(name "2Y1"
@@ -9775,7 +9781,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -6.35 -19.05 0)
 				(length 2.54)
 				(name "VEE"
@@ -9793,7 +9799,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -6.35 -21.59 0)
 				(length 2.54)
 				(name "GND"
@@ -9860,8 +9866,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at -6.35 -3.81 0)
+		(property "Datasheet" "https://static.chipdip.ru/lib/638/DOC012638259.pdf"
+			(at 1.524 -32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9869,8 +9875,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at -6.35 -3.81 0)
+		(property "Description" "Три двухканальных аналоговых мультиплексора/ демультиплексора"
+			(at 0.254 -30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9879,24 +9885,6 @@
 			)
 		)
 		(symbol "74HC4053_0_0"
-			(pin input line
-				(at -6.35 -3.81 0)
-				(length 2.54)
-				(name "2Y1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at 7.62 -19.05 180)
 				(length 2.54)
@@ -9934,168 +9922,6 @@
 				)
 			)
 			(pin input line
-				(at 7.62 -13.97 180)
-				(length 2.54)
-				(name "1Y0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -11.43 180)
-				(length 2.54)
-				(name "1Y1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -8.89 180)
-				(length 2.54)
-				(name "1Z"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -6.35 180)
-				(length 2.54)
-				(name "2Z"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -3.81 180)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -6.35 -6.35 0)
-				(length 2.54)
-				(name "2Y0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -6.35 -8.89 0)
-				(length 2.54)
-				(name "3Y1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -6.35 -11.43 0)
-				(length 2.54)
-				(name "3Z"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -6.35 -13.97 0)
-				(length 2.54)
-				(name "3Y0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -6.35 -16.51 0)
 				(length 2.54)
 				(name "~{E}"
@@ -10114,6 +9940,206 @@
 				)
 			)
 			(pin input line
+				(at 7.62 -21.59 180)
+				(length 2.54)
+				(name "S3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74HC4053_1_0"
+			(pin bidirectional line
+				(at -6.35 -3.81 0)
+				(length 2.54)
+				(name "2Y1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 -13.97 180)
+				(length 2.54)
+				(name "1Y0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 -11.43 180)
+				(length 2.54)
+				(name "1Y1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 -8.89 180)
+				(length 2.54)
+				(name "1Z"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 -6.35 180)
+				(length 2.54)
+				(name "2Z"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 -3.81 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 -6.35 0)
+				(length 2.54)
+				(name "2Y0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 -8.89 0)
+				(length 2.54)
+				(name "3Y1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 -11.43 0)
+				(length 2.54)
+				(name "3Z"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 -13.97 0)
+				(length 2.54)
+				(name "3Y0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at -6.35 -19.05 0)
 				(length 2.54)
 				(name "VEE"
@@ -10131,7 +10157,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -6.35 -21.59 0)
 				(length 2.54)
 				(name "GND"
@@ -10142,24 +10168,6 @@
 					)
 				)
 				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -21.59 180)
-				(length 2.54)
-				(name "S3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10580,8 +10588,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at -6.35 -2.54 0)
+		(property "Datasheet" "https://static.chipdip.ru/lib/225/DOC000225302.pdf"
+			(at 0.762 -28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10589,8 +10597,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at -6.35 -2.54 0)
+		(property "Description" "Четыре двунаправленных переключателя"
+			(at 0.508 -26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10599,60 +10607,6 @@
 			)
 		)
 		(symbol "74HC4066_0_0"
-			(pin input line
-				(at -6.35 -2.54 0)
-				(length 2.54)
-				(name "1Y"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.35 -12.7 180)
-				(length 2.54)
-				(name "4Z"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.35 -10.16 180)
-				(length 2.54)
-				(name "4Y"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at 6.35 -7.62 180)
 				(length 2.54)
@@ -10708,60 +10662,6 @@
 				)
 			)
 			(pin input line
-				(at -6.35 -5.08 0)
-				(length 2.54)
-				(name "1Z"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -6.35 -7.62 0)
-				(length 2.54)
-				(name "2Z"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -6.35 -10.16 0)
-				(length 2.54)
-				(name "2Y"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -6.35 -12.7 0)
 				(length 2.54)
 				(name "2E"
@@ -10797,7 +10697,117 @@
 					)
 				)
 			)
-			(pin input line
+		)
+		(symbol "74HC4066_1_0"
+			(pin bidirectional line
+				(at -6.35 -2.54 0)
+				(length 2.54)
+				(name "1Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 -12.7 180)
+				(length 2.54)
+				(name "4Z"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 -10.16 180)
+				(length 2.54)
+				(name "4Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 -5.08 0)
+				(length 2.54)
+				(name "1Z"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 -7.62 0)
+				(length 2.54)
+				(name "2Z"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 -10.16 0)
+				(length 2.54)
+				(name "2Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at -6.35 -17.78 0)
 				(length 2.54)
 				(name "GND"
@@ -10815,7 +10825,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 6.35 -17.78 180)
 				(length 2.54)
 				(name "3Y"
@@ -10833,7 +10843,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 6.35 -15.24 180)
 				(length 2.54)
 				(name "3Z"

@@ -6158,24 +6158,6 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -19.05 34.29 270)
-				(length 2.54)
-				(name "VDD_VIO_3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "64"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at -34.29 3.81 0)
 				(length 2.54)
@@ -6243,6 +6225,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -19.05 34.29 270)
+				(length 2.54)
+				(name "VDD_VIO_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "64"
 					(effects
 						(font
 							(size 1.27 1.27)

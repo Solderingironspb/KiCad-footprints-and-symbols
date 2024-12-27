@@ -11798,7 +11798,7 @@
 			)
 		)
 	)
-	(symbol "TL431UMW (SOT23-3)"
+	(symbol "TL431UMW SOT23-3"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -11812,7 +11812,7 @@
 				)
 			)
 		)
-		(property "Value" "TL431UMW (SOT23-3)"
+		(property "Value" "TL431UMW SOT23-3"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -11867,7 +11867,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TL431UMW (SOT23-3)_0_1"
+		(symbol "TL431UMW SOT23-3_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0) (xy 0 0) (xy 1.27 0)
@@ -11905,7 +11905,7 @@
 				)
 			)
 		)
-		(symbol "TL431UMW (SOT23-3)_1_1"
+		(symbol "TL431UMW SOT23-3_1_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 2.54)
