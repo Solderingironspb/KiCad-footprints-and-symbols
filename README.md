@@ -55,7 +55,8 @@
 ### Transistor_FET
 *	IRLML0040
 ### Установка:
-* Путь по-умолчанию: C:\Program Files\KiCad\8.0\share\kicad
+* Папки footprints и symbols: C:\Program Files\KiCad\8.0\share\kicad
+* Актуальные настройки менеджера библиотек посадочных мест и символов (файлы fp-lib-table и sym-lib-table): C:\Users\"Имя пользователя"\AppData\Roaming\kicad\8.0
 * Не забываем делать бэкап.
 ![image](https://github.com/user-attachments/assets/3dbbe87e-293d-4c1c-8009-19c83fc46764)
 ![image](https://github.com/user-attachments/assets/0f15db93-5921-4ba7-aa3c-01e86ae62d41)
