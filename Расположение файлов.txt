@@ -1,5 +1,7 @@
 Папки footprints и symbols:
-C:\Program Files\KiCad\8.0\share\kicad
+C:\Program Files\KiCad\9.0\share\kicad
 
 Актуальные настройки менеджера библиотек посадочных мест и символов (файлы fp-lib-table и sym-lib-table):
-C:\Users\"Имя пользователя"\AppData\Roaming\kicad\8.0
+C:\Users\"Имя пользователя"\AppData\Roaming\kicad\9.0
+
+Папка KiCad_scripts - Это скрипты для преобразования файлов footprints. 
