@@ -1,5 +1,5 @@
 # KiCad-footprints-and-symbols
-## Модифицированные символы и посадочные места. KiCad 8.0
+## Модифицированные символы и посадочные места. KiCad 9.0
 ### О сборке:
 * Размер шрифта по умолчанию Высота: 0.75  Ширина: 0.75 Толщина: 0.125
 * Рамки компонентов перенесены со солоя F.Courtyard на F.Silkscreen
@@ -59,9 +59,11 @@
 ### Transistor_FET
 *	IRLML0040
 ### Установка:
-* Папки footprints и symbols: C:\Program Files\KiCad\8.0\share\kicad
-* Актуальные настройки менеджера библиотек посадочных мест и символов (файлы fp-lib-table и sym-lib-table): C:\Users\Имя пользователя\AppData\Roaming\kicad\8.0
+* Папки footprints и symbols: C:\Program Files\KiCad\9.0\share\kicad
+* Актуальные настройки менеджера библиотек посадочных мест и символов (файлы fp-lib-table и sym-lib-table): C:\Users\Имя пользователя\AppData\Roaming\kicad\9.0
 * Не забываем делать бэкап.
+### Если хочется попробовать преобразовать файлы самому:
+* Папка KiCad_scripts - Это python скрипты для преобразования файлов footprints.
 ![image](https://github.com/user-attachments/assets/3dbbe87e-293d-4c1c-8009-19c83fc46764)
 ![image](https://github.com/user-attachments/assets/0f15db93-5921-4ba7-aa3c-01e86ae62d41)
 ![image](https://github.com/user-attachments/assets/0ced9155-ac7c-439e-9977-41c242dc331b)
