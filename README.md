@@ -68,6 +68,8 @@
 ![image](https://github.com/user-attachments/assets/3dbbe87e-293d-4c1c-8009-19c83fc46764)
 ![image](https://github.com/user-attachments/assets/0f15db93-5921-4ba7-aa3c-01e86ae62d41)
 ![image](https://github.com/user-attachments/assets/0ced9155-ac7c-439e-9977-41c242dc331b)
+<img width="1177" height="746" alt="Снимок экрана 2026-01-21 002952" src="https://github.com/user-attachments/assets/d8a1f607-a427-462a-a55c-ca40d4c73935" />
+
 
 
 
